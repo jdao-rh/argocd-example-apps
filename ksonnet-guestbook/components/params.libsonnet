@@ -8,7 +8,7 @@
     // Each object below should correspond to a component in the components/ directory
     "guestbook-ui": {
       containerPort: 80,
-      image: "gcr.io/heptio-images/ks-guestbook-demo:0.2",
+      image: "registry.access.redhat.com/ubi8/httpd-24",
       name: "ks-guestbook-ui",
       replicas: 1,
       servicePort: 80,
